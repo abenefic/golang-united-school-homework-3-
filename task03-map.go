@@ -4,7 +4,7 @@ import "sort"
 
 func sortMapValues(input map[int]string) (result []string) {
 	//Place your code here
-	tmp := make([]int, len(input))
+	var tmp []int
 	for key := range input {
 		tmp = append(tmp, key)
 	}
